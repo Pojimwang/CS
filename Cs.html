@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>南投中原部落 × 計算機概論</title>
+  <style>
+    body {
+      font-family: "Noto Sans TC", Arial, sans-serif;
+      margin: 0;
+      line-height: 1.7;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(120deg, #2b5876, #4e4376);
+      color: white;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: 0.8rem;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    nav {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0.8rem 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #4e4376;
+      font-weight: bold;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2.5rem auto;
+      padding: 0 1.2rem;
+    }
+    section h2 {
+      border-left: 6px solid #4e4376;
+      padding-left: 0.6rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.2rem;
+    }
+    footer {
+      background-color: #2b5876;
+      color: white;
+      text-align: center;
+      padding: 1.2rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+    .tag {
+      display: inline-block;
+      background-color: #e0e7ff;
+      color: #3730a3;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      margin-right: 0.4rem;
+      margin-top: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>南投中原部落</h1>
+  <p>結合原住民文化 × 計算機概論的智慧部落介紹網站</p>
+</header>
+
+<nav>
+  <a href="#about">部落介紹</a>
+  <a href="#culture">文化特色</a>
+  <a href="#cs">計算機概論應用</a>
+  <a href="#future">未來發展</a>
+</nav>
+
+<section id="about">
+  <h2>部落介紹</h2>
+  <div class="card">
+    <p>
+      南投中原部落位於南投縣山區，是一個保有豐富原住民文化與自然生態的部落。部落居民
+      以農業與傳統技藝為主要生活方式，近年來也逐步導入科技，嘗試以數位工具保存文化、
+      改善生活與促進觀光。
+    </p>
+  </div>
+</section>
+
+<section id="culture">
+  <h2>文化特色</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🌿 傳統農耕</h3>
+      <p>以小米、地瓜等作物為主，遵循祖先留下的節氣智慧與土地倫理。</p>
+    </div>
+    <div class="card">
+      <h3>🎶 歌舞與祭典</h3>
+      <p>透過歌舞、祭儀傳承歷史記憶與族群認同，是部落凝聚力的核心。</p>
+    </div>
+    <div class="card">
+      <h3>🧵 手工藝</h3>
+      <p>編織、雕刻等工藝蘊含族群圖騰與故事，是文化保存的重要媒介。</p>
+    </div>
+  </div>
+</section>
+
+<section id="cs">
+  <h2>計算機概論的實際應用</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>📊 資料庫系統</h3>
+      <p>
+        建立部落作物收成、人口結構與文化資料的資料庫，方便保存與分析。
+      </p>
+      <span class="tag">Database</span>
+      <span class="tag">資料管理</span>
+    </div>
+    <div class="card">
+      <h3>📍 GPS 與地理資訊</h3>
+      <p>
+        利用 GPS 與地圖系統標示農地、步道與文化景點，提升導覽與管理效率。
+      </p>
+      <span class="tag">GPS</span>
+      <span class="tag">GIS</span>
+    </div>
+    <div class="card">
+      <h3>🌱 感測器與物聯網</h3>
+      <p>
+        使用感測器監測土壤濕度與溫度，協助農業一貫化與智慧農業發展。
+      </p>
+      <span class="tag">IoT</span>
+      <span class="tag">Sensors</span>
+    </div>
+    <div class="card">
+      <h3>🎙 語音與多媒體</h3>
+      <p>
+        透過語音辨識與影音紀錄，保存長者口述歷史與母語文化。
+      </p>
+      <span class="tag">Voice Recognition</span>
+      <span class="tag">Multimedia</span>
+    </div>
+  </div>
+</section>
+
+<section id="future">
+  <h2>未來發展想像</h2>
+  <div class="card">
+    <p>
+      結合計算機概論的基礎技術，中原部落未來可發展為「智慧文化部落」，
+      透過網站、社群媒體與數位系統，讓更多人認識部落文化，同時也提升
+      部落年輕世代的資訊素養與競爭力。
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 南投中原部落 × 計算機概論期末報告示範網頁</p>
+</footer>
+
+</body>
+</html>
